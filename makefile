@@ -6,7 +6,8 @@ SC=source
 default: junit clean complie run
 
 junit:
-	$(SC) ~/.bash_profile
+	source ~/.bash_profile
+	
 clean:
 	rm -f *.class
 complie:
